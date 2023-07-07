@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Champion Pool</title>
+    <link rel="icon" href="assets/lol_icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/pool.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topContainer">
+        <nav class="navBar">
+            <div class="backButtonWrapper">
+                <a href="/" class="backButton">
+                    <img src="assets/left-arrow.svg" class="backImage">
+                </a>
+            </div>
+            <h1 class="navTitle">Champion Pool</h1>
+        </nav>
+    </div>
+    <div class="bottomContainer">
+        <div class="poolContainer">
+            <div class="supportCon">
+                <h1>Support</h1>
+                <div class="supportChamps"></div>
+            </div>
+            <div class="bottomCon">
+                <h1>Bottom</h1>
+                <div class="bottomChamps"></div>
+            </div>
+            <div class="topCon">
+                <h1>Top</h1>
+                <div class="topChamps"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/pool.js"></script>
+</body>
+
+</html>
